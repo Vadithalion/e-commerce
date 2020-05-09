@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "concurrently \"cd e-back && nodemon index.js \"  \"cd e-front && npm start --open \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadithalion/e-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vadithalion/e-commerce/issues"
+  },
+  "homepage": "https://github.com/Vadithalion/e-commerce#readme"
+}
