@@ -6,7 +6,7 @@ const PORT = 3001;
 const usersRouter = require('./routes/users.js');
 const productsRouter = require('./routes/products.js');
 
-mongoose.connect('mongodb://localhost:27017/e-comerce-db', {
+mongoose.connect('mongodb://localhost:27017/e-comerce-MERN', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
@@ -24,5 +24,4 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use('/users', usersRouter);
 app.use('/products', productsRouter);
-app.use('/orders', ordersRouter);
 app.listen(PORT, () => console.log('server running on port ' + PORT));
