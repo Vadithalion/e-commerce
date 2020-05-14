@@ -1,0 +1,10 @@
+.product {
+    padding: 0.5em;
+    .detail {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        max-width: 50vw;
+    }
+}
