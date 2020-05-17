@@ -3,13 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <section className="section about-section">
-      <h1 className="section-title">about us</h1>
+      <h1 className="section-title">Acerca de nosotros</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        repudiandae architecto qui adipisci in officiis, aperiam sequi atque
-        perferendis eos, autem maiores nisi saepe quisquam hic odio consectetur
-        nobis veritatis quasi explicabo obcaecati doloremque? Placeat ratione
-        hic aspernatur error blanditiis?
+        Somos una empresa que se dedica a la adquisicion y restauracion de equipos informaticos "vintage". Con sede en Pernambuco, realizamos online la mayor parte de operaciones, teniendo un alcance global de mercado. Esto se traduce en mayores oportunidades de venta para los clientes que nos ofrecen sus productos "vintage".
       </p>
     </section>
   );

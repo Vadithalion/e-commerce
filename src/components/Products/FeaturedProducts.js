@@ -8,5 +8,5 @@ export default function FeaturedProducts() {
   if (loading) {
     return <Loading></Loading>;
   }
-  return <ProductList title="featured products" products={featured} />;
+  return <ProductList title="Ddestacados" products={featured} />;
 }

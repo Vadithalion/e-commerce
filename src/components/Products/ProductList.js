@@ -7,12 +7,15 @@ export default function ProductList({ title, products }) {
         <h2 className="section-title">{title}</h2>
         <div>
           <div className="topInput">
-              <input className="searchinput" placeholder="search"></input>
-              <button id="search">search</button>
+              <input className="searchinput" placeholder="buscar"></input>
+              <button id="search">buscar</button>
           </div>
-          <div className="botInput">    
-              <button id="top">TOP prices</button>
-              <button id="bot">LOW prices</button>
+          <div>
+            <select id="cars">
+              <option>Ordenar precio por...</option>
+              <option value="toTop">Ordenar precio de menor a mayor</option>
+              <option value="toBot">Ordenar precio de mayor a menor</option>
+            </select>
           </div>
         </div>
       </div>

@@ -12,14 +12,14 @@ export default function CartList() {
   }
   return (
     <section className="cart-items section">
-      <h2>your cart</h2>
+      <h2>Tu carrito</h2>
       {cart.map(item => {
         return <CartItem key={item.id} {...item} />;
       })}
       <h2>total : ${total}</h2>
       {user.token ? (
         <Link to="/checkout" className="btn btn-primary btn-block">
-          checkout
+          comprar
         </Link>
       ) : (
         <Link to="/login" className="btn btn-primary btn-block">

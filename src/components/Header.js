@@ -13,17 +13,17 @@ export default function Header() {
         <ul>
           <div>
             <li>
-              <Link to="/">home</Link>
+              <Link to="/">inicio</Link>
             </li>
             <li>
-              <Link to="/about">about</Link>
+              <Link to="/about">nosotros</Link>
             </li>
             <li>
-              <Link to="/products">products</Link>
+              <Link to="/products">productos</Link>
             </li>
             {user.token && (
               <li>
-                <Link to="/checkout">checkout</Link>
+                <Link to="/checkout">Comprar</Link>
               </li>
             )}
           </div>

@@ -28,7 +28,7 @@ export default function Login() {
 
   const handleSubmit = async e => {
     showAlert({
-      msg: "accesing user data. please wait..."
+      msg: "accediendo..."
     });
     e.preventDefault();
     let response;
@@ -46,12 +46,12 @@ export default function Login() {
       const newUser = { token, username };
       userLogin(newUser);
       showAlert({
-        msg: `you are logged in : ${username}. shop away my friend!`
+        msg: `Ha inicado sesión como : ${username}. A comprar!`
       });
       history.push("/products");
     } else {
       showAlert({
-        msg: "there was an error. please try again...",
+        msg: "Ha habido un error, intentelo de nuevo...",
         type: "danger"
       });
     }
@@ -88,7 +88,7 @@ export default function Login() {
         {/* single input */}
         {!isMember && (
           <div className="form-control">
-            <label html="username">username</label>
+            <label html="username">Nombre de usuario</label>
             <input
               type="text"
               id="username"
@@ -101,7 +101,7 @@ export default function Login() {
         {/*end of single input */}
         {/* empty form text */}
         {isEmpty && (
-          <p className="form-empty">please fill out all form fields</p>
+          <p className="form-empty">Rellene todos los campos</p>
         )}
 
         {/* submit btn */}
@@ -112,15 +112,15 @@ export default function Login() {
             // disabled={isEmpty}
             onClick={handleSubmit}
           >
-            submit
+            enviar
           </button>
         )}
 
         {/* register link */}
         <p className="register-link">
-          {isMember ? "need to register?" : "already a member?"}
+          {isMember ? "Necesitas registrarte?" : "ya eres miembro?"}
           <button type="button" onClick={toggleMember}>
-            click here
+            click aqui
           </button>
         </p>
       </form>

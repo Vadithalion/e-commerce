@@ -22,7 +22,7 @@ function CheckoutPage(props) {
   // handle submit
   const isEmpty = !name || alert.show;
   async function handleSubmit(e) {
-    showAlert({ msg: "submitting order... please wait!" });
+    showAlert({ msg: "Enviando pedido, por favor, espere!" });
     e.preventDefault();
     const response = await props.stripe
       .createToken()
@@ -43,13 +43,13 @@ function CheckoutPage(props) {
       });
 
       if (order) {
-        showAlert({ msg: "your order is complete" });
+        showAlert({ msg: "Tu pedido esta completo" });
         clearCart();
         history.push("/");
         return;
       } else {
         showAlert({
-          msg: "there was an error with your order. please try again!",
+          msg: "Ha habido un error con tu pedido, intentalo de nuevo!",
           type: "danger"
         });
       }
@@ -66,11 +66,11 @@ function CheckoutPage(props) {
       <h2 className="section-title">checkout</h2>
       <form className="checkout-form">
         <h3>
-          order total : <span> ${total}</span>
+          precio total : <span> ${total}</span>
         </h3>
         {/* single input */}
         <div className="form-control">
-          <label htmlFor="name">your name</label>
+          <label htmlFor="name">Nombre</label>
           <input
             type="text"
             id="name"
@@ -83,13 +83,13 @@ function CheckoutPage(props) {
         {/* end of single input  */}
         {/* card element */}
         <div className="stripe-input">
-          <label htmlFor="card-element">Credit or Debit Card</label>
+          <label htmlFor="card-element">Tarjeta de crédito o débito</label>
           <p className="stripe-info">
-            Test using this credit card : <span>4242 4242 4242 4242</span>
+            Tarjeta de crédito para test : <span>4242 4242 4242 4242</span>
             <br />
-            enter any 5 digits for the zip code
+            C.P. de 5 dígitos random para test
             <br />
-            enter any 3 digits for the CVC
+            Código de seguridad de la tarjeta de 3 dígitos para test
           </p>
         </div>
         {/* card element */}
@@ -99,14 +99,14 @@ function CheckoutPage(props) {
         {error && <p className="form-empty">{error}</p>}
         {/* empty value */}
         {isEmpty ? (
-          <p className="form-empty">please fill out name field</p>
+          <p className="form-empty">Rellena los campos vacios</p>
         ) : (
           <button
             type="submit"
             onClick={handleSubmit}
             className="btn btn-primary btn-block"
           >
-            submit
+            enviar
           </button>
         )}
       </form>

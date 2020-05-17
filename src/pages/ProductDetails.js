@@ -11,7 +11,7 @@ export default function ProductDetails() {
   const product = products.find(item => item.id === parseInt(id));
   let history = useHistory();
   if (products.length === 0) {
-    return <p className="loading">loading data...</p>;
+    return <p className="loading">cargando productos...</p>;
   } else {
     const { image, title, price, description } = product;
     return (
@@ -28,7 +28,7 @@ export default function ProductDetails() {
               history.push("/cart");
             }}
           >
-            add to cart
+            añadir al carrito
           </button>
         </article>
       </section>
