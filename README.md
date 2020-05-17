@@ -21,7 +21,40 @@ ejecuta este comando tras la descarga o clonación para que el proyecto funcione
 
 Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
-![image]()
+![image](./public/readme/home.jpg)
+
+* La página del home contiene los productos destacados mas abajo
+ 
+![image](./public/readme/destacados.jpg)
+
+* Disponemos de listado de productos
+
+![image](./public/readme/listado.jpg)
+
+* Productos detallados
+
+![image](./public/readme/producto.jpg)
+
+
+* Un registro de usuarios y su login/logout para efectuar compras y disponer de carrito de la compra
+
+![image](./public/readme/login.jpg)
+
+* Carrito de la compra con control de stock y precio total
+
+![image](./public/readme/carrito.jpg)
+
+* Finalizar la compra con método de pago por tarjeta
+
+![image](./public/readme/COMPRA.jpg)
+
+* Sección sobre nuestra empresa
+
+![image](./public/readme/acerca.jpg)
+
+
+
+
 
 
 ---
