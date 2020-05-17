@@ -38,7 +38,7 @@ Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y produ
 
 * Un registro de usuarios y su login/logout para efectuar compras y disponer de carrito de la compra
 
-![image](./public/readme/login.JPG)
+![image](./public/readme/LOGIN.JPG)
 
 * Carrito de la compra con control de stock y precio total
 
