@@ -21,11 +21,11 @@ ejecuta este comando tras la descarga o clonación para que el proyecto funcione
 
 Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
-![image](./public/readme/home.jpg)
+![image](./public/readme/home.JPG)
 
 * La página del home contiene los productos destacados mas abajo
  
-![image](./public/readme/destacados.jpg)
+![image](./public/readme/destacados.JPG)
 
 * Disponemos de listado de productos
 
@@ -33,24 +33,24 @@ Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y produ
 
 * Productos detallados
 
-![image](./public/readme/producto.jpg)
+![image](./public/readme/producto.JPG)
 
 
 * Un registro de usuarios y su login/logout para efectuar compras y disponer de carrito de la compra
 
-![image](./public/readme/login.jpg)
+![image](./public/readme/login.JPG)
 
 * Carrito de la compra con control de stock y precio total
 
-![image](./public/readme/carrito.jpg)
+![image](./public/readme/carrito.JPG)
 
 * Finalizar la compra con método de pago por tarjeta
 
-![image](./public/readme/COMPRA.jpg)
+![image](./public/readme/COMPRA.JPG)
 
 * Sección sobre nuestra empresa
 
-![image](./public/readme/acerca.jpg)
+![image](./public/readme/acerca.JPG)
 
 
 
