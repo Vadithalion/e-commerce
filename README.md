@@ -15,6 +15,25 @@ Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y produ
 
 ejecuta este comando tras la descarga o clonación para que el proyecto funcione en tu máquina
 
+## Tecnologías Front-end
+```
+    "axios": "^0.19.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-stripe-elements": "^6.0.1"
+```
+## Tecnologías Back-end
+```
+        "bcryptjs": "^2.4.3",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.10",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.4.6"
+```
 
 ![image](./public/readme/home.JPG)
 
