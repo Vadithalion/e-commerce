@@ -1,10 +1,12 @@
-# **e-Commerce**
+# **e-Commerce 🚀**
+
+![image](./public/readme/home1.JPG)
 ---
 ## Demo E-commerce con REACT
 
 Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
-## Tecnologías usadas e instalación
+## Tecnologías usadas e instalación 🛠️
 
 * [mongoDB](https://www.mongodb.com/es) <--- Link a la documentación
 * [mongoose](https://mongoosejs.com/) <--- Link a la documentación
@@ -15,7 +17,7 @@ Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y produ
 
 ejecuta este comando tras la descarga o clonación para que el proyecto funcione en tu máquina
 
-## Tecnologías Front-end
+## Tecnologías Front-end ⚙️
 ```
     "axios": "^0.19.0",
     "react": "^16.12.0",
@@ -25,7 +27,7 @@ ejecuta este comando tras la descarga o clonación para que el proyecto funcione
     "react-scripts": "3.2.0",
     "react-stripe-elements": "^6.0.1"
 ```
-## Tecnologías Back-end
+## Tecnologías Back-end ⚙️
 ```
         "bcryptjs": "^2.4.3",
         "express": "^4.17.1",
@@ -73,7 +75,7 @@ ejecuta este comando tras la descarga o clonación para que el proyecto funcione
 
 ---
 
-## **Autor**
+## **Autor** ✒️
 
 [Iñigo Vadillo](https://www.linkedin.com/in/i%C3%B1igovadilloruiz/)
 
