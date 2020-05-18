@@ -1,10 +1,8 @@
-# **AlquiNetflixBack**
+# **e-Commerce**
 ---
+## Demo E-commerce
 
-proyecto alojado en: [Pulsa aqui para accedet al repositorio](https://github.com/davidmorenocapel/AlquiNetflixBack) (en dos ramas, master y develop)
-
-Este es el backend del proyecto de "Classic Netflix", una web para alquiler de películas, con información de las mismas y posibilidad de registro de usuarios.
-
+Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
 ## Tecnologías usadas e instalación
 
@@ -17,9 +15,6 @@ Este es el backend del proyecto de "Classic Netflix", una web para alquiler de p
 
 ejecuta este comando tras la descarga o clonación para que el proyecto funcione en tu máquina
 
-## Demo E-commerce
-
-Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
 ![image](./public/readme/home.JPG)
 
