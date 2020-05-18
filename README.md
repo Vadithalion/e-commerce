@@ -1,6 +1,6 @@
 # **e-Commerce**
 ---
-## Demo E-commerce
+## Demo E-commerce con REACT
 
 Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y productos.
 
