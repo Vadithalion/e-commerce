@@ -62,3 +62,7 @@ Sitio web e-commerce, con registro, login de usuario, carrito de pedidos y produ
 ## **Autor**
 
 [Iñigo Vadillo](https://www.linkedin.com/in/i%C3%B1igovadilloruiz/)
+
+* Guía
+
+[e-commerce youtube](https://www.youtube.com/watch?v=wPQ1-33teR4)
